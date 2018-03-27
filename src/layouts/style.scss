@@ -1,3 +1,56 @@
-body {
-    font-family: 'Courier New', Courier, monospace;
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+$family-sans-serif: 'Open Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$link: $red;
+
+@import "~bulma";
+
+.columns > div {
+    @extend .column;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width: $tablet) {
+        height: inherit;
+    }
+
+    &:nth-child(2) {
+        background-color: #fffff2;
+    }
+}
+
+#profile > img {
+    $size: 597px / 1.5;
+    max-width: $size;
+    max-height: $size;
+
+    margin: 0 auto;
+}
+
+.hero-body > {
+    .title {
+        font-family: 'Righteous', cursive;
+        font-size: $size-1;
+        // color: #2b2d42;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        max-width: 250px;
+        // margin: 0 auto;
+        > a {
+            display: block;
+            font-size: $size-4;
+        }
+    }
 }
