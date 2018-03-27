@@ -1,0 +1,44 @@
+{
+  "name": "acwx.net",
+  "description": "The Internet home for Aaron Colby Williams",
+  "version": "1.0.0",
+  "author": "Aaron Colby Williams",
+  "dependencies": {
+    "gatsby": "^1.9.243",
+    "gatsby-link": "^1.6.37",
+    "gatsby-module-loader": "^1.0.11",
+    "gatsby-plugin-netlify-cms": "^1.0.9",
+    "gatsby-plugin-react-helmet": "^2.0.5",
+    "gatsby-plugin-sass": "^1.0.17",
+    "gatsby-plugin-sharp": "^1.6.34",
+    "gatsby-remark-images": "^1.5.50",
+    "gatsby-source-filesystem": "^1.5.23",
+    "gatsby-transformer-remark": "^1.7.33",
+    "gatsby-transformer-sharp": "^1.6.21",
+    "lodash": "^4.17.5",
+    "lodash-webpack-plugin": "^0.11.4",
+    "node-sass": "^4.8.3",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "sharp": "^0.20.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "prettier": "^1.7.4"
+  }
+}
