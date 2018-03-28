@@ -24,8 +24,9 @@ export default class IndexPage extends React.Component {
                 <h1 className="title">
                   Aaron Colby Williams
                 </h1>
-                <p>I'm a reporter who specializes in graphics and data visualization for <a href="https://www.washingtonpost.com/people/aaron-williams/">The Washington Post</a>. Before joining The Post, I covered housing, campaign finance, police and local politics for the San Francisco Chronicle and the Center for Investigative Reporting.</p>
-
+                <p>
+                  I'm a reporter who specializes in data analysis and visualization for <a href="https://www.washingtonpost.com/people/aaron-williams/">The Washington Post</a>. Before joining The Post, I covered housing, campaign finance, police and local politics for the San Francisco Chronicle and the Center for Investigative Reporting.
+                </p>
                 <div className="social">
                   <a href="https://twitter.com/aboutaaron" title="Twitter">
                     <span className="icon">
